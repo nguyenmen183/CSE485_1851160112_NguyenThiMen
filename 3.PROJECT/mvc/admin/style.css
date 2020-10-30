@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    max-width: 95% !important;
+}
+header, footer{
+    border-top:2px solid #82b74b;
+}
+a.logo img {
+    max-height: 90px;
+}
+#submit{
+    background-color: #82b74b;
+}
+
+.dropdown:hover .dropdown-menu{ /*sổ xuống*/
+    display: block;
+}
+li.nav-item:hover{
+    background-color: #1e340c ;  /* hover vào các liên kết*/
+}
+a.navbar-brand{
+    color: #82b74b !important;
+}
+.dropdown-menu a:hover{
+    background-color: gray !important;
+}
+/*phần ảnh chạy */
+ a.my-image>img {
+    max-height: 30px;
+    width: auto;
+    margin-top: 80px;
+}
+.move{
+    max-height: 150px;
+}
+/*hover anh*/
+.face2{
+    display: none;
+}
+.move:hover .face2{
+    display: block;
+    transform: translateY(-70px);
+}
+.move:hover .face1{
+    transform: translateY(-70px);
+}
+/*logo anh cuối*/
+center a img{
+    max-height: 70px;
+    width: auto;
+}
+/*----------icon-------------*/
+i.fa-chevron-circle-right{
+    background-color:white; color: #82b74b; border: #82b74b; border-radius: 50%
+}
+ul li {
+    list-style-type: none;
+}
+i.fa-check-circle{
+    background-color:#82b74b; color: white ; border: white; border-radius: 50%; 
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* slidershow */
+
+h1.heading{
+    color: #fff;
+    background: #82B74B;
+}
+span.sub-heading {
+    color: #fff;
+    font: 14px "Open Sans", sans-serif;
+    background: #00000080;
+    margin: 0px 0px 0px 22.525px;
+    padding: 10px 20px;
+}
+/* dưới slideshow..................... */
+h4>a{
+    color: #82b74b;
+    text-decoration: none;
+}
+h4>a:hover{
+    text-decoration: none; color: black;
+}
+h4.no-overflow a:hover {
+    color: #222;
+    text-decoration: none;
+}
+.su-menh-container {
+    padding-right: 20px;
+    line-height: 28px;
+}
+ul.colored-plus{
+    list-style-type: none;
+}
+.su-menh-container p, .su-menh-container li {
+    text-align: justify;
+    font-size: 1.15em;
+}
+.industry{
+    text-align: center;
+}
+
+/* iconbox ............................ */
+.iconcircle {
+    border: 1px solid #82b74b;
+    border-radius: 50%;
+    height: 82px;
+    margin: 0 auto;
+    width: 82px;
+}
+.iconcircle i{
+    color: #82b74b;
+    font-size: 40px;
+    margin: 20px;
+}
+
+a.btn{
+    background-color: #82b74b;
+    color: #fff !important;
+}
+button.fa-play-circle{
+    background-color: #82b74b;
+}
+.iconbox1{
+    background-color: #fbfbfb;
+}
+.iconbox2{
+    background-color: #f4f4f4;
+}
+.content{
+    text-align: center;
+}
+/*nút js*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #82b74b;
+    
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  #myBtn i{
+      font-size: 30px;
+  }
+
+
+

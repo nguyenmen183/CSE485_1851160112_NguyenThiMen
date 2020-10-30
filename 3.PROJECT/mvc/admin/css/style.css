@@ -1,0 +1,19 @@
+.box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pageHeader{
+    min-height: 10px;
+}
+.row #login {
+    background: #eeeeee;
+}
+/* .row .forgetpass{
+    background-color: #ddd;
+    bottom: 0;
+    left:0;
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+} */
