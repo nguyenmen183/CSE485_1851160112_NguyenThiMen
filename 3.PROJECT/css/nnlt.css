@@ -1,0 +1,9 @@
+a h3{
+    text-align: center;
+}
+a img{
+    max-width: 410px;
+}
+a, a.hover{
+    text-decoration: none;
+}
